@@ -44,7 +44,9 @@ This is a simple weather application built using Django, which allows users to s
 
 ## API Information
 
-This application uses the OpenWeatherMap API to retrieve weather data. You can sign up for a free API key at [OpenWeatherMap](https://openweathermap.org/api) to use the API.
+This application uses the OpenWeatherMap API to retrieve weather data. You can sign up for a free API key at [OpenWeatherMap](https://openweathermap.org/api) to use the API. Note that the weather API requires a key, and you would need to change the API key in the `views.py` file.
+
+The API is limited, allowing searches by country only.
 
 ## Pros and Cons
 
